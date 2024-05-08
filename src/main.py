@@ -1,12 +1,12 @@
 import sys
 import pygame
 
-from .state import State
-from .generate import MazeGenerator
-from .animations import Animation, Animator, AnimatingNode
-from .maze import GOAL, START, Maze, WEIGHT
+from subpackage.state import State
+from subpackage.generate import MazeGenerator
+from subpackage.animations import Animation, Animator, AnimatingNode
+from subpackage.maze import GOAL, START, Maze, WEIGHT
 
-from .widgets import (
+from subpackage.widgets import (
     Alignment,
     Button,
     Label,
@@ -17,7 +17,7 @@ from .widgets import (
     TableCell
 )
 
-from .constants import (
+from subpackage.constants import (
     BLUE,
     CELL_SIZE,
     CLOCK,

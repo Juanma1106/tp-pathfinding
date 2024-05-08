@@ -1,5 +1,5 @@
-from src.pathfinder.models.solution import Solution
-from src.widgets import Label, Popup
+from pathfinder.models.solution import Solution
+from subpackage.widgets import Label, Popup
 
 
 class State:

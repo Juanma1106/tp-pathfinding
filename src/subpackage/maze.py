@@ -4,11 +4,11 @@ import pygame
 
 from .generate import GenerationCallback, MazeGenerator
 from .animations import AnimatingNode, Animation, AnimationCallback, Animator
-from .pathfinder.models.node import Node
-from .pathfinder.models.solution import Solution
-from .pathfinder.main import PathFinder
-from .pathfinder.models.grid import Grid
-from .pathfinder.models.search_types import Search
+from pathfinder.models.node import Node
+from pathfinder.models.solution import Solution
+from pathfinder.main import PathFinder
+from pathfinder.models.grid import Grid
+from pathfinder.models.search_types import Search
 
 from .constants import (
     DARK_BLUE_2,
